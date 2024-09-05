@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.containers{
+    display: flex;
+    background-color: rgb(245, 248, 248);
+    justify-content: space-between;
+    
+}
+input{
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 10px;
+
+}
+.left{
+    display: flex;
+    align-items: center;
+    
+}
+.right{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    
+}
+.second{
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    justify-content:space-between;
+    padding: 15px;
+}
+button{
+    margin-left: 30px;
+    background-color: rgb(245, 39, 83);
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    color: white;
+}
+select{
+    padding: 7px;
+    border: none;
+
+}
+/* .second-left{
+    margin-left: 10px;
+    display: flex;
+} */
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px;
+}
+a:hover{
+    background-color: rgb(247, 75, 155);
+    border-radius: 10px 2px;
+}
+.movie{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 40px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    height: 30px;
+    font-family: "Protest Riot", sans-serif;
+    padding-top: 5px;
+}
+.show{
+    text-align: center;
+    padding: 5px;
+    background-color: black;
+    border-radius: 6px;
+    transition: transform 0.3s ease-in-out;
+}
+.show:hover{
+    background-color: yellow;
+    transform: scale(1.1);
+}
+/* .poster{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+} */
+.poster img{
+    border-radius: 50px;
+    margin: 70px 0px;
+}
+.event img{
+    padding: 5px;
+    border-radius: 20px;
+}
+.premiere{
+    height: 500px;
+    background-color: rgb(41, 52, 73);
+}
+.premiere p{
+    margin-left: 20px;
+    opacity: 0.8;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: -38px;
+    left: 70px;
+    color: white;
+}
+.premiere h1{
+    font-weight: bold;
+    margin-top: 20px;
+    color: white;
+}
+.premiere img{
+    padding: 10px;
+    border-radius: 20px;
+}
+.title_bar{
+    display: flex;
+
+}
+.image{
+    display: flex;
+    
+}
+.image p{
+    color: white;
+    position: static;
+    opacity: 1;
+    letter-spacing: 1px;
+}
+.footer_last{
+    height: 700px;
+    background-color: rgb(128, 117, 117);
+    margin-top: 50px;
+
+}.footer_last h2{
+    font-size: medium;
+}
+.footer_top{
+    display: flex;
+    justify-content:space-around;
+    padding: 30px;
+    color: white;
+}
+.footer_first{
+    height:100px;
+    background-color: rgb(220, 226, 226);
+}
+.footer_first{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_head{
+    color: rgb(211, 211, 211);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+.footer_content p{
+    font-size: 12px;
+}
+p:hover{
+    color: white;
+}
+.footer_head:hover{
+    color: rgb(44, 30, 248);
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+    
+}
